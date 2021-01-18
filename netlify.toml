@@ -1,0 +1,8 @@
+[build]
+    command="gatsby build"
+    publish="public/"
+    functions="functions/"
+
+
+[[plugins]]
+   package = "@netlify/plugin-functions-install-core"
